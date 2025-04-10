@@ -6,14 +6,14 @@ const showLogin = ref(false)
 const isLoggedIn = ref(false)
 const searchText = ref('')
 
-// Giả lập đăng nhập
+
 const fakeLogin = () => {
   isLoggedIn.value = true
   showLogin.value = false
   openMenu.value = false
 }
 
-// Xử lý đăng xuất
+
 const handleLogout = () => {
   isLoggedIn.value = false
   openMenu.value = false
@@ -24,13 +24,12 @@ const handleLogout = () => {
   <link rel="stylesheet" href="/src/GlobalCSS/main.css">
   <header class="container-fluid bg-white shadow-sm py-2 px-3">
     <nav class="d-flex justify-content-between align-items-center gap-3">
-      <!-- Logo -->
+
       <div class="d-flex align-items-center">
         <img src="../assets/vlg.png" alt="Logo" class="logo" width="50" height="50">
         <h4 class="ms-2  fw-bold" style="font-family: Playwrite BE VLG; color: red;" >Vtravel</h4>
       </div>
 
-      <!-- Desktop Navigation -->
       <div class="d-none d-md-flex align-items-center gap-4">
         <a href="#" class="text-dark text-decoration-none">Trang chủ</a>
         <a href="#" class="text-dark text-decoration-none">Khám phá</a>
@@ -58,7 +57,7 @@ const handleLogout = () => {
         </button>
       </div>
 
-      <!-- Mobile Menu Button -->
+
       <button 
         @click="openMenu = true"
         class="btn btn-primary d-md-none"
@@ -67,7 +66,7 @@ const handleLogout = () => {
       </button>
     </nav>
 
-    <!-- Mobile Menu -->
+
     <div v-if="openMenu" class="mobile-menu">
       <div class="menu-header">
         <h5>Menu</h5>
@@ -97,7 +96,7 @@ const handleLogout = () => {
       </div>
     </div>
 
-    <!-- Login Modal -->
+
     <div v-if="showLogin" class="login-modal">
       <div class="modal-content">
         <div class="modal-header">
