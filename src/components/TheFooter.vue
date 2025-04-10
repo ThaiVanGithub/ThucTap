@@ -5,7 +5,10 @@
   
           <!-- Giới thiệu -->
           <div class="col-12 col-md-4">
-            <h5 class="fw-bold text-primary mb-3">VTRAVEL</h5>
+            <div class="d-flex">
+            
+            <h5 class="fw-bold mb-3">VTRAVEL</h5>
+          </div>
             <p class="small">
               Khám phá đất nước hình chữ S cùng VTravel - nơi lưu giữ mọi khoảnh khắc.
             </p>
@@ -49,7 +52,7 @@
         </div>
   
         <hr class="border-light mt-4" />
-  
+        
         <p class="text-center small mb-0">&copy; 2025 Vtravel. Author: Tran Van Thai</p>
   
       </div>

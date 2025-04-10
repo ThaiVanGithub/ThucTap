@@ -117,7 +117,7 @@
                   <div v-for="(heritage, index) in culturalHeritages" :key="index" class="col-12 mb-3">
                     <div class="heritage-item">
                       <img :src="heritage.image" :alt="heritage.name" class="img-fluid rounded" />
-                      <h6 class="mt-2">{{ heritage.name }}</h6>
+                      <h6 class="mt-2 text-center">{{ heritage.name }}</h6>
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,7 @@
                   <div v-for="(food, index) in vietnameseFoods" :key="index" class="col-12 mb-3">
                     <div class="food-item">
                       <img :src="food.image" :alt="food.name" class="img-fluid rounded" />
-                      <h6 class="mt-2">{{ food.name }}</h6>
+                      <h6 class="mt-2 text-center">{{ food.name }}</h6>
                     </div>
                   </div>
                 </div>

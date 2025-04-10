@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="/src/GlobalCSS/main.css">
     <div class="banner-wrapper">
       <video
       src="../assets/videoBanner.mp4"
@@ -12,7 +13,7 @@
   <div class="banner-content animate">
     <h1>Việt Nam tươi đẹp</h1>
     <p>Trải nghiệm nét văn hóa và ẩm thực của đất nước hình chữ S cùng với VTRAVEL nhé!</p>
-    <a-button type="primary" size="large">Khám phá ngay</a-button>
+    <a-button style="background-color: #D84040 ; color: white ;" size="large" >Khám phá ngay</a-button>
   </div>
 </div>
   
