@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "author": "Tran Van Thai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +11,8 @@
   },
   "dependencies": {
     "ant-design-vue": "^4.2.6",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.5",
+    "bootstrap-vue": "^2.23.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },

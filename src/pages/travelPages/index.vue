@@ -1,6 +1,6 @@
 <template>
     <travelBanner/>
-    <travelPageSection/>
+    <TravelPageSection/>
     
  </template>
  <script>

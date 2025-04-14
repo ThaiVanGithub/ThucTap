@@ -2,3 +2,7 @@
 :root{
     --red-color:#D84040;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
