@@ -26,7 +26,7 @@ position: relative;
 width: 100%;
 height: 500px;
 overflow: hidden;
-border-radius: 12px;
+
 }
 
 /* video chính của banner */
