@@ -11,7 +11,7 @@
         playsinline
       ></video>
     <div class="banner-content animate">
-      <h1>Khám phá vẻ đẹp đa sắc màu của Việt Nam</h1>
+      <h1>Khám phá vẻ đẹp của Việt Nam</h1>
       <p>Việt Nam có rất nhiều nơi lý tưởng để du khách ghé thăm và du lịch, chắc chắn sẽ mang đến trải nghiệm khó quên.</p>
       
     </div>
