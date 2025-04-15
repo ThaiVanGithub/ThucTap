@@ -13,7 +13,6 @@
     <div class="banner-content animate">
       <h1>Đa dạng văn hóa ẩm thực</h1>
       <p>Trải nghiệm tinh hoa ẩm thực bậc nhất thế giới, tự hào mang đến cho bạn những hương vị độc đáo và phong phú.</p>
-      <a-button style="background-color: #D84040 ; color: white ;" size="large" ><i class="fa-solid fa-bowl-food"></i></a-button>
     </div>
   </div>
     

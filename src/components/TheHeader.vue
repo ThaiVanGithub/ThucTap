@@ -32,7 +32,7 @@ const handleLogout = () => {
         text-decoration: none;">Vtravel</a>
       </div>
 
-      <div class="d-none d-md-flex align-items-center gap-4">
+      <div class="d-none d-md-flex align-items-center gap-4" style="font-weight: 500;">
         <a href="http://localhost:5173" class="text-dark text-decoration-none">Trang chủ</a>
         <a href="http://localhost:5173/food" class="text-dark text-decoration-none">Ẩm thực</a>
         <a href="http://localhost:5173/history" class="text-dark text-decoration-none">Lịch sử</a>
@@ -126,6 +126,8 @@ const handleLogout = () => {
 </template>
 
 <style scoped>
+
+
 .btn-primary {
   background-color: #D84040;
   color: white;
