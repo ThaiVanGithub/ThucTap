@@ -9,6 +9,7 @@
         autoplay
         loop
         playsinline
+        poster="/src/assets/travelBanner.jpg"
       ></video>
     <div class="banner-content animate">
       <h1>Khám phá vẻ đẹp của Việt Nam</h1>

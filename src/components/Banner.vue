@@ -9,6 +9,7 @@
       autoplay
       loop
       playsinline
+        poster="/src/assets/cauvang.jpg"
     ></video>
   <div class="banner-content animate">
     <h1>Việt Nam tươi đẹp</h1>

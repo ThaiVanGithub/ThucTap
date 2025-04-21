@@ -9,6 +9,7 @@
         autoplay
         loop
         playsinline
+        poster="/src/assets/comtam.jpg"
       ></video>
     <div class="banner-content animate">
       <h1>Đa dạng văn hóa ẩm thực</h1>
