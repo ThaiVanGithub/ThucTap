@@ -26,38 +26,47 @@ const handleLogout = () => {
     <nav class="d-flex justify-content-between align-items-center gap-3">
 
       <div class="d-flex align-items-center">
-        <a href="http://localhost:5173"> <img src="../assets/vlg.png" alt="Logo" class="logo" width="50"
-            height="50"></a>
+
+          <router-link to="/" class="text-white nav-link" active-class="text-danger" exact>
+            <img src="../assets/vlg.png" alt="Logo" class="logo" width="50" height="50">
+          </router-link>
+       
         <a href="http://localhost:5173" class="ms-2 fs-5 fw-bold" style="font-family: Playwrite BE VLG; color: #D84040;
         text-decoration: none;">Vtravel</a>
       </div>
 
       <div class="d-none d-md-flex align-items-center gap-4" style="font-weight: 500;">
-        <a href="http://localhost:5173" class="text-dark text-decoration-none">Trang chủ</a>
-        <a href="http://localhost:5173/food" class="text-dark text-decoration-none">Ẩm thực</a>
-        <a href="http://localhost:5173/history" class="text-dark text-decoration-none">Lịch sử</a>
-        <a href="http://localhost:5173/travel" class="text-dark text-decoration-none">Du lịch</a>
+        <router-link to="/" active-class="text-danger" exact>
+          <p class="nav-link m-0 ">Trang chủ</p>
+        </router-link>
 
-        <button v-if="!isLoggedIn" @click="showLogin = true"
-         class="btn btn-primary"
-         style="background-color: #D84040; color: white;
+        <router-link to="/Food" active-class="text-danger" exact>
+          <p class="nav-link m-0">Ẩm thực</p>
+        </router-link>
+
+        <router-link to="/History" active-class="text-danger" exact>
+          <p class="nav-link m-0 ">Lịch sử</p>
+        </router-link>
+        
+        <router-link to="/Travel" active-class="text-danger" exact>
+          <p class="nav-link m-0">Du lịch</p>
+        </router-link>
+
+        <button v-if="!isLoggedIn" @click="showLogin = true" class="btn btn-primary" style="background-color: #D84040; color: white;
          border: black;">
           Đăng nhập
         </button>
 
-        <button v-else @click="handleLogout" 
-        class="btn btn-outline-danger" 
-        style="background-color: #D84040;
+        <!-- icon đăng xuất -->
+        <button v-else @click="handleLogout" class="btn btn-outline-danger" style="background-color: #D84040;
           border: black;
           color: white">
-          <i class="fa-solid fa-right-from-bracket"></i>
+        Đăng xuất
         </button>
       </div>
 
 
-      <button @click="openMenu = true" 
-      style="background-color: #D84040 ;" 
-      class="btn btn-primary d-md-none">
+      <button @click="openMenu = true" style="background-color: #D84040 ;" class="btn btn-primary d-md-none">
         <i class="fas fa-bars"></i>
       </button>
     </nav>
@@ -70,20 +79,29 @@ const handleLogout = () => {
       </div>
 
       <div class="menu-body">
-        <a href="http://localhost:5173" class="menu-item">Trang chủ</a>
-        <a href="http://localhost:5173/food" class="menu-item">Ẩm thực</a>
-        <a href="http://localhost:5173/history" class="menu-item">Lịch sử</a>
-        <a href="http://localhost:5173/travel" class="menu-item">Du lịch</a>
+        <router-link to="/" active-class="text-danger" exact>
+          <p class="nav-link m-0 menu-item ">Trang chủ</p>
+        </router-link>
+
+        <router-link to="/Food" active-class="text-danger" exact>
+          <p class="nav-link m-0 menu-item">Ẩm thực</p>
+        </router-link>
+
+        <router-link to="/History" active-class="text-danger" exact>
+          <p class="nav-link m-0  menu-item">Lịch sử</p>
+        </router-link>
+        
+        <router-link to="/Travel" active-class="text-danger" exact>
+          <p class="nav-link m-0 menu-item">Du lịch</p>
+        </router-link>
 
 
-        <button v-if="!isLoggedIn" @click="showLogin = true" 
-        class="btn btn-primary w-100 mt-2"
+        <button v-if="!isLoggedIn" @click="showLogin = true" class="btn btn-primary w-100 mt-2"
           style="background-color: #D84040; color: white;">
           Đăng nhập
         </button>
 
-        <button v-else @click="handleLogout" 
-        class="btn btn-outline-danger w-100 mt-2">
+        <button v-else @click="handleLogout" class="btn btn-outline-danger w-100 mt-2">
           Đăng xuất
         </button>
       </div>
@@ -92,9 +110,8 @@ const handleLogout = () => {
 
     <div v-if="showLogin" class="login-modal">
       <div class="modal-content">
-        <div class="modal-header">
-
-          <button @click="showLogin = false" class="btn "> <i class="fa-solid fa-xmark"></i> </button>
+        <div class="modal-header" >
+          <button @click="showLogin = false" class="btn "> <i class="fas fa-times"></i> </button>
         </div>
 
         <div class="modal-body">
@@ -126,8 +143,6 @@ const handleLogout = () => {
 </template>
 
 <style scoped>
-
-
 .btn-primary {
   background-color: #D84040;
   color: white;
@@ -195,5 +210,11 @@ const handleLogout = () => {
 .modal-header {
   padding: 1rem;
   border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-header .btn {
+  background: #D84040;
+  color:white;
 }
 </style>

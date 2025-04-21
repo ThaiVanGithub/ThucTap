@@ -3,7 +3,7 @@
     <section class="travel-video py-5 text-center">
         <div class="container">
             <div class="row text-center d-flex justify-content-center
-             display-6 text-uppercase">
+             text-uppercase fs-4">
                 <div class="col-lg-3 col-sm-6">
                     <a href="#bien">Du lịch vùng biển</a>
                     <video src="/src/assets/bienVH.mp4" class="img-fluid" autoplay muted></video>
@@ -166,7 +166,7 @@ export default {
 <style>
 .text-travel {
     height: 400px;
-    overflow: scroll
+    overflow: hidden;
 }
 
 .carousel-control-prev,
