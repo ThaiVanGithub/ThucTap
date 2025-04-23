@@ -105,24 +105,24 @@
 </template>
 
 <script>
- import hoiAn from '/src/assets/hoiAn.jpg'
-    import ruongbt from '/src/assets/ruongbt.jpg'
-    import duongphovn from '/src/assets/duongphovn.jpg'
-    import hoiAn2 from '/src/assets/hoiAn2.jpg'
-    import chua from '/src/assets/chua.jpg'
-    import snque from '/src/assets/snque.jpeg'
+import hoiAn from '/src/assets/hoiAn.jpg'
+import ruongbt from '/src/assets/ruongbt.jpg'
+import duongphovn from '/src/assets/duongphovn.jpg'
+import hoiAn2 from '/src/assets/hoiAn2.jpg'
+import chua from '/src/assets/chua.jpg'
+import snque from '/src/assets/snque.jpeg'
 export default {
     data() {
         return {
-            
-          
+
+
             tours: [
-                { name: 'Hội An', image: '/src/assets/hoiAn.jpg' },
-                { name: 'Ruộng bậc thang', image: '/src/assets/ruongbt.jpg' },
-                { name: 'Đường phố Việt Nam', image: '/src/assets/duongphovn.jpg' },
-                { name: 'Hội An 2', image: '/src/assets/hoiAn2.jpg' },
-                { name: 'Chùa', image: '/src/assets/chua.jpg' },
-                { name: 'Sapa', image: '/src/assets/snque.jpeg' }
+                { name: 'Hội An', image: hoiAn },
+                { name: 'Ruộng bậc thang', image: ruongbt },
+                { name: 'Đường phố Việt Nam', image: duongphovn },
+                { name: 'Hội An 2', image: hoiAn2 },
+                { name: 'Chùa', image: chua },
+                { name: 'Sapa', image: snque }
             ],
             images: [
                 hoiAn,
@@ -143,7 +143,7 @@ export default {
             this.activeIndex = (this.activeIndex - 1 + this.images.length) % this.images.length;
         }
     },
-        
+
 };
 </script>
 
