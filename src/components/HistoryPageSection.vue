@@ -6,7 +6,7 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <h2 class="fw-bold mb-4">Tìm hiểu sơ
                         lược về lịch sử Việt Nam</h2>
-                    <p class="text-dark mb-4">
+                    <p class="text-dark mb-4" style="text-align: justify;">
                         Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
                         54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
                         được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -17,7 +17,7 @@
                         cuốn lịch sử
                         được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
                     </p>
-                    <p class="text-dark mt-4">
+                    <p class="text-dark mt-4" style="text-align: justify;">
                         Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
                         54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
                         được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -107,10 +107,10 @@
         <div class="container bg-dark text-white p-5">
             <div class="row align-items-center">
                 <!-- các chương -->
-                <div class="col-lg-12 col-sm-12 text-white">
+                <div class="col-lg-12 col-sm-12 text-white" >
                     <h2 class="display-3">1. Thời tiền sử</h2>
                     <h3 id="thoiDoDa">1.2 Thời đồ đá</h3>
-                    <p>Ngay từ thời đại đồ đá cũ cách
+                    <p style="text-align: justify;">Ngay từ thời đại đồ đá cũ cách
                         đây hàng trăm nghìn năm, vùng đất Việt Nam đã có người sinh sống. Các nhà khảo cổ học đã tìm
                         thấy những dấu tích về sự có mặt của con người tiền sử tại các hang động, núi đá như hang Thẩm
                         Hoi, Thẩm Khuyên ở Lạng Sơn, núi Đọ ở Thanh Hóa. Họ sống bằng săn bắt và hái lượm trong môi
@@ -123,7 +123,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="thoiDoDa">1.2 Thời đồ đồng đá</h3>
-                    <p class="text-white">Ngay từ thời đại đồ đá cũ cách
+                    <p class="text-white" style="text-align: justify;">Ngay từ thời đại đồ đá cũ cách
                         Khoảng 4000 – 3500 năm trước Công nguyên, nền văn hóa Phùng Nguyên ra đời,
                         đánh dấu sự khởi đầu của thời đại đồ đồng đá ở Việt Nam.
                         Thời kỳ này, người Việt đã biết khai thác và đúc những đồ đồng thô sơ từ các mỏ đồng tự nhiên.
@@ -132,7 +132,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="thoiDoDa">1.3. Thời đại đồ đồng</h3>
-                    <p class="text-white">Đến khoảng 3000 năm trước Công nguyên, nền văn hóa Đồng Đậu xuất hiện.
+                    <p class="text-white" style="text-align: justify;">Đến khoảng 3000 năm trước Công nguyên, nền văn hóa Đồng Đậu xuất hiện.
                         Người Việt đã đúc được những đồ đồng tinh xảo và đẹp mắt hơn. Họ cũng đã biết kỹ thuật đánh bóng
                         và trang trí hoa văn trên đồ đồng.
                         Đồ đồng Đồng Đậu có giá trị lịch sử và nghệ thuật cao.</p>
@@ -140,7 +140,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="thoiDoDa">1.4. Thời đại đồ sắt</h3>
-                    <p class="text-white">Vào khoảng 1200 TCN, nền văn hóa Đông Sơn ra đời ở khu vực sông Mã và đồng
+                    <p class="text-white" style="text-align: justify;">Vào khoảng 1200 TCN, nền văn hóa Đông Sơn ra đời ở khu vực sông Mã và đồng
                         bằng sông Hồng,
                         đánh dấu thời kỳ hoàng kim của nghệ thuật đúc đồng Việt Nam. Những chiếc trống đồng
                         Đông Sơn tinh xảo với hoa văn được chạm khắc công phu đã trở thành biểu tượng của văn hóa Việt
@@ -153,7 +153,7 @@
                 <div class="col-lg-12 col-sm-12">
                     <h2 class="display-3">2. Thời kỳ cổ đại</h2>
                     <h3 id="thoiHBVL">2.1. Hồng Bàng và Văn Lang</h3>
-                    <p class="text-white">Theo truyền thuyết, vào khoảng năm 2879 TCN, nhà nước Xích Quỷ của người Việt
+                    <p class="text-white" style="text-align: justify;">Theo truyền thuyết, vào khoảng năm 2879 TCN, nhà nước Xích Quỷ của người Việt
                         ra đời ở khu vực phía Nam sông Dương Tử.
                         Tuy nhiên, sự tồn tại của nhà nước này chưa được khảo cổ học xác nhận.
                         Đến thế kỷ thứ VII TCN, vương quốc Văn Lang của người Việt được thành lập ở khu vực trung du và
@@ -165,7 +165,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="#">2.2. Nhà Thục</h3>
-                    <p class="text-white">Đến thế kỷ thứ III TCN, Thục Phán – thủ Lĩnh bộ tộc Âu Việt,
+                    <p class="text-white" style="text-align: justify;">Đến thế kỷ thứ III TCN, Thục Phán – thủ Lĩnh bộ tộc Âu Việt,
                         đã đánh bại vua Hùng thứ 18, thống nhất các bộ tộc Lạc Việt và Âu Việt.
                         Thục Phán tự xưng là An Dương Vương, lập ra nhà nước Âu Lạc đóng đô tại Cổ Loa (nay là Hà Nội).
                     </p>
@@ -175,7 +175,7 @@
                 <div class="col-lg-12 col-sm-12">
                     <h2 class="display-3">3. Thời Bắc thuộc (180 TCN – 938)</h2>
                     <h3 id="thoiNTr">3.1. Nhà Triệu (180 TCN – 111 TCN)</h3>
-                    <p class="text-white">Trong lúc nhà Tần gặp khó khăn sau cái chết của Tần Thủy Hoàng vào năm 210
+                    <p class="text-white" style="text-align: justify;">Trong lúc nhà Tần gặp khó khăn sau cái chết của Tần Thủy Hoàng vào năm 210
                         TCN,
                         Triệu Đà mở rộng lãnh thổ. Năm 179 TCN, Triệu Đà thôn tính nước Âu Lạc của An Dương Vương, lập
                         nên nước Nam Việt độc lập, kinh đô tại Phiên Ngung.
@@ -184,7 +184,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="#">3.2. Bắc thuộc lần 1 (111 TCN – 40 SCN)</h3>
-                    <p class="text-white">Năm 111 TCN, sau khi thống nhất Trung Hoa, Hán Vũ Đế cho quân xâm chiếm Nam
+                    <p class="text-white" style="text-align: justify;">Năm 111 TCN, sau khi thống nhất Trung Hoa, Hán Vũ Đế cho quân xâm chiếm Nam
                         Việt và sáp nhập vào lãnh thổ nhà Hán.
                         Chính sách đồng hóa người Việt bằng văn hóa Hán bắt đầu được thực hiện khiến người Việt phải
                         sống dưới ách đô hộ nặng nề của phương Bắc.</p>
@@ -192,7 +192,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="#">3.3. Hai Bà Trưng (40 – 43)</h3>
-                    <p class="text-white">Năm 40, Hai Bà Trưng ở quận Giao Chỉ đã dấy binh khởi nghĩa và giành được độc
+                    <p class="text-white" style="text-align: justify;">Năm 40, Hai Bà Trưng ở quận Giao Chỉ đã dấy binh khởi nghĩa và giành được độc
                         lập.
                         Trưng Trắc tự xưng là Trưng Nữ Vương. Tuy nhiên, chỉ sau 3 năm, nhà Hán cử Mã Viện sang đàn áp
                         và do tổ chức quân đội chưa hoàn thiện nên không thể chống cự lại,
@@ -201,7 +201,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="#">3.4. Bắc thuộc lần 2 (43 – 544)</h3>
-                    <p class="text-white">Sau thất bại của Hai Bà Trưng, các chính quyền phong kiến Trung Hoa kế tiếp
+                    <p class="text-white" style="text-align: justify;">Sau thất bại của Hai Bà Trưng, các chính quyền phong kiến Trung Hoa kế tiếp
                         như Đông Ngô,
                         Tấn, Lưu Tống, Nam Tề, Lương tiếp tục đô hộ Việt Nam. Dưới ách thống trị này,
                         người Việt vẫn liên tục đứng lên kháng chiến, tuy thất bại nhưng khí phách vẫn không tắt.</p>
@@ -209,7 +209,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="#">3.5. Nhà Tiền Lý (544 – 602)</h3>
-                    <p class="text-white">Năm 544, Lý Bí khởi nghĩa đánh đuổi quân Lương, lập ra nước Vạn Xuân độc lập,
+                    <p class="text-white" style="text-align: justify;">Năm 544, Lý Bí khởi nghĩa đánh đuổi quân Lương, lập ra nước Vạn Xuân độc lập,
                         xưng vương là Lý Nam Đế.
                         Năm 545, Lý Nam Đế bại trận, giao lại binh quyền cho Triệu Quang Phục. Sau khi Lý Nam Đế qua
                         đời, Triệu Quang Phục đã đánh đuổi được quân Lương năm 550, tự xưng là Triệu Việt Vương.
@@ -219,7 +219,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="#">3.6. Bắc thuộc lần 3 (602 – 905)</h3>
-                    <p class="text-white">Năm 602, nhà Tùy đánh bại nước Vạn Xuân và lại thiết lập Bắc thuộc lần 3 cho
+                    <p class="text-white" style="text-align: justify;">Năm 602, nhà Tùy đánh bại nước Vạn Xuân và lại thiết lập Bắc thuộc lần 3 cho
                         Việt Nam.
                         Tiếp nối nhà Tùy, nhà Đường cũng lần lượt đô hộ Việt Nam gần 300 năm
                         Trong giai đoạn này, người Việt đã tổ chức nhiều cuộc khởi nghĩa chống lại sự cai trị của nhà
@@ -229,7 +229,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3 id="#">3.7. Thời kỳ tự chủ (905 – 939) – Nhà Khúc</h3>
-                    <p class="text-white">Tới cuối thế kỷ IX, sau những biến cố nội bộ và chiến tranh ở Trung Quốc, nhà
+                    <p class="text-white" style="text-align: justify;">Tới cuối thế kỷ IX, sau những biến cố nội bộ và chiến tranh ở Trung Quốc, nhà
                         Đường suy yếu. Tại Việt Nam,
                         vào năm 905, Khúc Thừa Dụ đã chiếm lấy thủ phủ Đại La, đánh dấu bước ngoặt thời kỳ tự chủ sau
                         gần 1000 năm Bắc thuộc.</p>
@@ -238,7 +238,7 @@
                 <div class="col-lg-12 col-sm-12">
                     <h2 class="display-3">4. Thời kỳ quân chủ (939 – 1945)</h2>
                     <h3 id="thoiQuanChu">4.1. Thời Kỳ Độc Lập (939 – 1407)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Sau chiến thắng oanh liệt trước quân Nam Hán trong trận Bạch Đằng năm 938, quân sĩ các trấn lập
                         Ngô Quyền làm vua, sáng lập nên nhà Ngô vào năm 939. Đây được coi là cột mốc đánh dấu sự ra đời
                         của nhà nước phong kiến độc lập đầu tiên của người Việt sau gần 1000 năm Bắc thuộc. Các triều
@@ -268,7 +268,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3>4.2. Thời kỳ Bắc Thuộc lần thứ IV (1407 – 1427)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Năm 1407, quân Minh sang xâm lược Đại Ngu dưới danh nghĩa trừ diệt nhà Hồ phục ngôi nhà Trần.
                         Nhà Hồ sụp đổ, bắt đầu thời kỳ Bắc thuộc lần thứ 4 kéo dài 20 năm đen tối.
                     </p>
@@ -276,7 +276,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3>4.3. Thời kỳ Trung Hưng – Nhà Hậu Lê (1427 – 1527)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Năm 1418, sau hơn 10 năm, nghĩa quân Lam Sơn do Lê Lợi lãnh đạo nổi dậy chống lại ách thống trị
                         của nhà Minh. Đến năm 1428, quân Minh hoàn toàn rút khỏi Đại Việt. Lê Lợi lên ngôi hoàng đế, lập
                         ra nhà Hậu Lê, mở đầu thời kỳ trung hưng.
@@ -285,7 +285,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3>4.4. Thời kỳ chia cắt (1527 – 1802)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Năm 1527, Mạc Đăng Dung lập nhà Mạc sau khi giành ngôi từ nhà Hậu Lê (nhà Lê trung hưng). Nhà
                         Hậu Lê được tái lập vài năm sau đó với sự giúp đỡ của Nguyễn Kim và giành được kiểm soát khu vực
                         từ Thanh Hóa đến Bình Định. Sau khi Nguyễn Kim qua đời, con rể Trịnh Kiểm tiếp quản quyền bính
@@ -310,7 +310,7 @@
 
                 <div class="col-lg-12 col-sm-12">
                     <h3>4.5. Thời kỳ thống nhất (1802 – 1858)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Năm 1802 với sự hậu thuẫn của một số người Pháp, Nguyễn Phúc Ánh thuộc dòng dõi chúa Nguyễn đã
                         đánh bại Tây Sơn. Ông lên làm vua lấy niên hiệu là Gia Long và trở thành vị vua đầu tiên của nhà
                         Nguyễn. Ông đổi tên nước từ Đại Việt thành Việt Nam và đóng đô ở Huế.
@@ -328,7 +328,7 @@
                 <div class="col-lg-12 col-sm-12">
                     <h2 class="display-3">5. Thời kỳ hiện đại (1858 – nay)</h2>
                     <h3 id="thoiQuanChu">5.1 Pháp thuộc (1858 – 1945)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Năm 1858, Hải quân Pháp xâm lược Việt Nam bằng việc tấn công Đà Nẵng và và đánh xuống Sài Gòn.
                         Kết quả là Pháp chiếm đóng cả miền Đông và miền Tây, hình thành lãnh thổ thuộc địa Nam Kỳ. Tiếp
                         đó, từ năm 1873 đến năm 1886, Pháp tiếp tục xâm chiếm miền Bắc Việt Nam. Sau đó tiếp tục cho ác
@@ -350,7 +350,7 @@
                 <div class="col-lg-12 col-sm-12">
                     <h3>5.2 Thời kỳ cộng hòa (1945 – nay)</h3>
                     <h3>Tuyên bố độc lập</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Tháng 8 năm 1945, Việt Minh tổ chức thành công Cách mạng tháng Tám, giành quyền lực ở hầu hết
                         Việt Nam.
 
@@ -361,7 +361,7 @@
                     </p>
 
                     <h3>Kháng chiến chống Pháp (1946 – 1954)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Năm 1947, Pháp chiếm lấy toàn bộ các đô thị lớn của Việt Nam, tuy nhiên Việt Nam Dân chủ Cộng
                         hòa tiếp tục chiến tranh nhân dân và du kích, làm cho Pháp sa lầy. Năm 1949, Pháp đành đàm phán
                         với các chính trị gia Việt Nam chống lại chính quyền Hồ Chí Minh và thành lập chính phủ mới là
@@ -377,7 +377,7 @@
                     </p>
 
                     <h3>Chiến tranh Việt Nam (1955 – 1975)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Trong giai đoạn 1956 – 1958, Việt Nam Dân chủ Cộng hòa đề nghị Quốc gia Việt Nam tổ chức tuyển
                         cử thống nhất đất nước nhưng bị từ chối. Năm 1955, với sự hỗ trợ của Mỹ, Ngô Đình Diệm gian lận
                         trong Cuộc trưng cầu dân ý miền Nam Việt Nam để trở thành Tổng thống của chính phủ Việt Nam Cộng
@@ -398,7 +398,7 @@
                     </p>
 
                     <h3>Thời kỳ đầu sau thống nhất (1976 – 1986)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Từ năm 1976 đến 1986, sau khi thống nhất, Việt Nam đã đối mặt với nhiều khó khăn và khủng hoảng
                         kinh tế – xã hội. Việt Nam Dân chủ Cộng hòa và Cộng hòa miền Nam Việt Nam tổ chức Tổng tuyển cử
                         thống nhất quốc gia, đổi tên thành Cộng hòa Xã hội chủ nghĩa Việt Nam.
@@ -418,7 +418,7 @@
                     </p>
 
                     <h3>Thời kỳ đổi mới (1986 – nay)</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Từ năm 1986 khi Đại hội Đảng Cộng sản Việt Nam VI triển khai chính sách “Đổi Mới” dưới sự lãnh
                         đạo của ông Nguyễn Văn Linh. Chính sách này nhằm cải cách cơ cấu Đảng, chính quyền, và kinh tế
                         theo hướng thị trường với định hướng Xã hội chủ nghĩa.
@@ -459,7 +459,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-12 ">
                     <h2 class="text-center">Trống Đồng Đông Sơn</h2>
-                    <p class="text-start">Trống đồng Đông Sơn hay trống đồng Heger loại I là một loại trống đồng tiêu
+                    <p class="text-start" style="text-align: justify;">Trống đồng Đông Sơn hay trống đồng Heger loại I là một loại trống đồng tiêu
                         biểu cho Văn hóa Đông
                         Sơn (thế kỷ 7 TCN - thế kỷ 6 CN) của người Việt cổ. Những chiếc trống này với quy mô đồ sộ, hình
                         dáng cân đối, hài hoà đã thể hiện một trình độ rất cao về kỹ năng và nghệ thuật, đặc biệt là
@@ -480,7 +480,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-12 mb-3">
                     <h2 class="text-center">Môn Hạ Sảnh ấn</h2>
-                    <p class="text-start">Trống đồng Đông Sơn hay trống đồng Heger loại I là một loại trống đồng tiêu
+                    <p class="text-start" style="text-align: justify;">Trống đồng Đông Sơn hay trống đồng Heger loại I là một loại trống đồng tiêu
                         Trong số 30 hiện vật, nhóm hiện vật tiêu biểu được Thủ tướng công nhận Bảo vật quốc gia Đợt 1,
                         quyết định số 1426/QĐTTg ngày 1/10/2012 có ấn đồng MÔN HẠ SẢNH ẤN. Tên gọi như thế là theo phiên
                         âm 4 chữ theo thể Triện thư trên mặt ấn.
@@ -505,7 +505,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-12 ">
                     <h2 class="text-center">Chuông Vân Bản</h2>
-                    <p class="text-start">Trống đồng Đông Sơn hay trống đồng Heger loại I là một loại trống đồng tiêu
+                    <p class="text-start" style="text-align: justify;">Trống đồng Đông Sơn hay trống đồng Heger loại I là một loại trống đồng tiêu
                         biểu cho Văn hóa Đông
                         Sơn (thế kỷ 7 TCN - thế kỷ 6 CN) của người Việt cổ. Những chiếc trống này với quy mô đồ sộ, hình
                         dáng cân đối, hài hoà đã thể hiện một trình độ rất cao về kỹ năng và nghệ thuật, đặc biệt là
