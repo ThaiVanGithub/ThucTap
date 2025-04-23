@@ -21,7 +21,7 @@ const handleLogout = () => {
 </script>
 
 <template>
-  <link rel="stylesheet" href="/src/GlobalCSS/main.css">
+
   <header class="container-fluid bg-white shadow-sm py-2 px-3">
     <nav class="d-flex justify-content-between align-items-center gap-3">
 

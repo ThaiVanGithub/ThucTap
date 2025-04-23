@@ -1,6 +1,5 @@
 <template>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
-  <link rel="stylesheet" href="/src/GlobalCSS/main.css">
   <div class="banner-wrapper">
     <video
       src="../assets/videoBanner.mp4"

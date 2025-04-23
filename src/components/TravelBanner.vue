@@ -1,5 +1,5 @@
 <template>
-    <link rel="stylesheet" href="/src/GlobalCSS/main.css">
+
       <div class="banner-wrapper">
         <video
         src="/src/assets/travel.mp4"

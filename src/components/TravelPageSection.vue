@@ -1,5 +1,5 @@
 <template>
-    <link rel="stylesheet" href="/src/GlobalCSS/main.scss">
+  
     <section class="travel-video py-5 text-center">
         <div class="container">
             <div class="row text-center d-flex justify-content-center

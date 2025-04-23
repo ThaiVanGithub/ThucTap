@@ -216,6 +216,7 @@ import dctt from '../assets/dctt.jpg';
 import phoHN from '../assets/phoHN.jpeg';
 import bxmt from '../assets/bxmt.jpg';
 import chua2 from '../assets/chua2.mp4';
+import tg from '../assets/tg.jpg'
 export default {
   name: 'ExploreVietnam',
   setup() {
@@ -269,7 +270,7 @@ export default {
         src: chua2,
         title: 'Tôn giáo và nét văn hóa gắn liền',
         description: 'Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng.',
-        poster: ''
+        poster: tg
       }
     ]);
 

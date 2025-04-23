@@ -1,5 +1,5 @@
 <template>
-    <link rel="stylesheet" href="/src/GlobalCSS/main.css">
+
     <div class="banner-wrapper">
         <img src="../assets/ls.png" alt="Banner" class="bannerVid" muted autoplay loop playsinline />
         <div class="banner-content animate">
