@@ -10,7 +10,7 @@
               <font-awesome-icon :icon="['fas', 'landmark']" class="me-2 text-primary" />
               Văn hóa đặc sắc Việt Nam
             </h2>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -21,7 +21,7 @@
               cuốn lịch sử
               được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
             </p>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -32,7 +32,7 @@
               cuốn lịch sử
               được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
             </p>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -43,7 +43,7 @@
               cuốn lịch sử
               được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
             </p>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -54,7 +54,7 @@
               cuốn lịch sử
               được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
             </p>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -65,7 +65,7 @@
               cuốn lịch sử
               được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
             </p>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -76,7 +76,7 @@
               cuốn lịch sử
               được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
             </p>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -87,7 +87,7 @@
               cuốn lịch sử
               được biên soạn từ cấp xã như “Thụy Lâm truyền thống lịch sử văn hóa và cách mạng”…
             </p>
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4 " style="text-align: justify;">
               Việt Nam tự hào với bề dày văn hóa hơn 4000 năm lịch sử,
               54 dân tộc anh em cùng những di sản văn hóa vật thể và phi vật thể
               được UNESCO công nhận. Là một huyện có bề dày lịch sử, nên việc giáo dục lịch sử
@@ -287,6 +287,7 @@ export default {
 </script>
 
 <style scoped>
+
 .explore-vietnam {
   overflow-x: hidden;
 }
