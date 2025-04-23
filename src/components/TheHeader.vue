@@ -27,16 +27,18 @@ const handleLogout = () => {
 
       <div class="d-flex align-items-center">
 
-          <router-link to="/" class="text-white nav-link" active-class="text-danger" exact>
+          <router-link to="/" class="text-white nav-link" exact-active-class="text-danger" exact>
             <img src="../assets/vlg.png" alt="Logo" class="logo" width="50" height="50">
           </router-link>
        
-        <a href="http://localhost:5173" class="ms-2 fs-5 fw-bold" style="font-family: Playwrite BE VLG; color: #D84040;
-        text-decoration: none;">Vtravel</a>
+        
+         <router-link to="/" exact-active-class="text-danger" exact>
+          <p class="m-0 ms-2 fs-5 fw-bold" style="font-family: Playwrite BE VLG; color: #D84040;">VTravel</p>
+        </router-link>
       </div>
 
       <div class="d-none d-md-flex align-items-center gap-4" style="font-weight: 500;">
-        <router-link to="/" active-class="text-danger" exact>
+        <router-link to="/" exact-active-class="text-danger" exact>
           <p class="nav-link m-0 ">Trang chủ</p>
         </router-link>
 

@@ -99,38 +99,23 @@
                     <input type="text" class="form-control" placeholder="Nhập tên địa điểm...">
                     <button class="btn btn-primary mt-3">Tìm kiếm</button>
                 </div>
-
-                <!-- <div class="col-lg-12 col-sm-12">
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-lg-6 col-sm-12 mb-3">
-                            <form action="submit" class="text-center">
-                            <h3>Để lại thông tin để nhận ưu đãi</h3>
-                            <h6 class="text-start">Họ tên</h6>
-                            <input  type="text" class="form-control mb-3" placeholder="Họ tên...">
-                            <h6 class="text-start">Số điện thoại</h6>
-                            <input type="text" class="form-control mb-3" placeholder="Số điện thoại">
-                            <h6 class="text-start">Email</h6>
-                            <input type="text" class="form-control mb-3" placeholder="Email">
-                            <h6 class="text-start">Địa chỉ</h6>
-                            <input type="text" class="form-control mb-3" placeholder="Địa chỉ">
-
-                        </form>
-                        </div>
-                        
-                    </div>
-                        
-                </div> -->
             </div>
         </div>
     </section>
 </template>
 
 <script>
+ import hoiAn from '/src/assets/hoiAn.jpg'
+    import ruongbt from '/src/assets/ruongbt.jpg'
+    import duongphovn from '/src/assets/duongphovn.jpg'
+    import hoiAn2 from '/src/assets/hoiAn2.jpg'
+    import chua from '/src/assets/chua.jpg'
+    import snque from '/src/assets/snque.jpeg'
 export default {
     data() {
         return {
             
-            // đối tượng hình ảnh chứa ảnh
+          
             tours: [
                 { name: 'Hội An', image: '/src/assets/hoiAn.jpg' },
                 { name: 'Ruộng bậc thang', image: '/src/assets/ruongbt.jpg' },
@@ -140,12 +125,12 @@ export default {
                 { name: 'Sapa', image: '/src/assets/snque.jpeg' }
             ],
             images: [
-                '/src/assets/hoiAn.jpg',
-                '/src/assets/ruongbt.jpg',
-                '/src/assets/duongphovn.jpg',
-                '/src/assets/hoiAn2.jpg',
-                '/src/assets/chua.jpg',
-                '/src/assets/snque.jpeg',
+                hoiAn,
+                ruongbt,
+                duongphovn,
+                hoiAn2,
+                chua,
+                snque,
             ],
             activeIndex: 0
         };

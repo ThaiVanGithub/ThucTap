@@ -10,4 +10,16 @@ a{
     color: #D84040 !important;
     border-bottom: 2px solid #D84040;
     font-weight: bold;
+}
+
+html {
+    font-size: 16px;
+  
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  
+    @media (max-width: 480px) {
+      font-size: 13px;
+    }
   }

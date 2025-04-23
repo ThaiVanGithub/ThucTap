@@ -44,7 +44,7 @@
           <!-- Liên hệ -->
           <div class="col-12 col-md-4">
             <h6 class="fw-bold mb-3">Liên hệ</h6>
-            <p class="small mb-1"><i class="fa-solid fa-location-dot me-2"></i>Lê Thị Riêng, Phường 6, Thành phố Cao Lãnh,Tỉnh Đồng Tháp</p>
+            <p class="small mb-1"><i class="fa-solid fa-location-dot me-2"></i>Lê Thị Riêng, Phường 1, Thành phố Cao Lãnh,Tỉnh Đồng Tháp</p>
             <p class="small mb-1"><i class="fa-solid fa-phone me-2"></i>0123 456 789</p>
             <p class="small mb-1"><i class="fa-solid fa-envelope me-2"></i>vtravel@gmail.com</p>
           </div>

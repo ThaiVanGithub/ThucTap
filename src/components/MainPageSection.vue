@@ -1,5 +1,5 @@
 <template>
-  <link rel="stylesheet" href="/src/GlobalCSS/main.css">
+
   <section class="explore-vietnam">
 
     <div class="culture-section py-5 bg-light">
@@ -148,7 +148,7 @@
           <div class="card h-100 shadow">
             <div class="card-body p-0">
               <div class="video-wrapper">
-                <video autoplay class="video-player w-100" controls preload="metadata" :poster="video.poster || ''">
+                <video muted autoplay class="video-player w-100" controls preload="metadata" :poster="video.poster || ''">
                   <source :src="video.src" type="video/mp4">
                   Trình duyệt của bạn không hỗ trợ thẻ video.
                 </video>
@@ -219,16 +219,9 @@ export default {
 
     const featuredDestinations = ref([
       {
-        image: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        name: 'Vịnh Hạ Long',
-        location: 'Quảng Ninh',
-        rating: 4.5
-      },
-      {
-        image: 'https://images.unsplash.com/photo-1525338078858-d762b5e32f2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        name: 'Phố cổ Hội An',
-        location: 'Quảng Nam',
-        rating: 4.8
+        image: '/src/assets/haLongBay.jpg',
+        title: 'Vịnh Hạ Long',
+        description: 'Một trong những kỳ quan thiên nhiên thế giới với hàng nghìn hòn đảo đá vôi tuyệt đẹp.'
       }
     ]);
 
@@ -242,23 +235,23 @@ export default {
 
     const culturalHeritages = ref([
       {
-        image: 'https://cdn3.ivivu.com/2022/09/nha-nhac-cung-dinh-hue-ivivu-5-1024x512.jpg',
+        image: '/src/assets/cdh.jpg',
         name: 'Nhã nhạc cung đình Huế'
       },
       {
-        image: 'https://gonatour.vn/vnt_upload/news/12_2020/dan_ca_tai_tu_nam_bo_gonatour.jpg',
+        image: '/src/assets/dctt.jpg',
         name: 'Đờn ca tài tử'
       }
     ]);
 
     const vietnameseFoods = ref([
       {
-        image: 'https://reviewvilla.vn/wp-content/uploads/2022/05/Pho_Ha_Noi_9.jpeg',
+        image: '/src/assets/phoHN.jpeg',
         name: 'Phở Hà Nội'
       },
 
       {
-        image: 'https://media.urbanistnetwork.com/saigoneer/article-images/2022/10/07/banh-xeo/41b.jpg',
+        image: '/src/assets/bxmt.jpg',
         name: 'Bánh xèo miền Trung'
       }
     ]);
@@ -269,7 +262,7 @@ export default {
 
     const vietnamVideos = ref([
       {
-        src: 'https://cdn.pixabay.com/video/2022/11/27/140664-775595953_large.mp4',
+        src: '/src/assets/chua2.mp4',
         title: 'Tôn giáo và nét văn hóa gắn liền',
         description: 'Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng.',
         poster: ''
