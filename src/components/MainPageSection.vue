@@ -211,7 +211,11 @@
 
 <script>
 import { ref } from 'vue';
-
+import cdh from '../assets/cdh.jpg';
+import dctt from '../assets/dctt.jpg';
+import phoHN from '../assets/phoHN.jpeg';
+import bxmt from '../assets/bxmt.jpg';
+import chua2 from '../assets/chua2.mp4';
 export default {
   name: 'ExploreVietnam',
   setup() {
@@ -235,23 +239,23 @@ export default {
 
     const culturalHeritages = ref([
       {
-        image: '/src/assets/cdh.jpg',
+        image: cdh,
         name: 'Nhã nhạc cung đình Huế'
       },
       {
-        image: '/src/assets/dctt.jpg',
+        image: dctt,
         name: 'Đờn ca tài tử'
       }
     ]);
 
     const vietnameseFoods = ref([
       {
-        image: '/src/assets/phoHN.jpeg',
+        image: phoHN,
         name: 'Phở Hà Nội'
       },
 
       {
-        image: '/src/assets/bxmt.jpg',
+        image: bxmt,
         name: 'Bánh xèo miền Trung'
       }
     ]);
@@ -262,7 +266,7 @@ export default {
 
     const vietnamVideos = ref([
       {
-        src: '/src/assets/chua2.mp4',
+        src: chua2,
         title: 'Tôn giáo và nét văn hóa gắn liền',
         description: 'Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng. Với bề dày lịch sử lâu đời, tôn giáo đã trở thành một phần không thể thiếu trong văn hóa Việt Nam. Là một phần vô cùng quan trọng.',
         poster: ''

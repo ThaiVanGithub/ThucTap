@@ -29,7 +29,7 @@
 
   }
   
-  /* video chính của banner */
+
   .bannerVid {
   width: 100%;
   height: 100%;
@@ -37,7 +37,7 @@
   filter: brightness(65%);
   }
   
-  /* chữ trên video */
+
   .banner-content {
   position: absolute;
   top: 50%;

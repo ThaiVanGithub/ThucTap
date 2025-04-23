@@ -236,18 +236,7 @@
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-sm-12 ratio ratio-16x9 mb-4">
-            <video src="https://videos.pexels.com/video-files/6645672/6645672-hd_1920_1080_30fps.mp4"
-            autoplay muted></video>
-          </div>
-          <div class="col-lg-6 col-sm-12 ratio ratio-16x9">
-            <video src="/src/assets/dulich1.mp4"
-            autoplay muted></video>
-          </div>
-        </div>
-      </div>
+     
     
     </div>
   </section>
@@ -261,7 +250,6 @@ export default {
 
 <style scoped>
 .achivement {
-  background-image: url('https://images.creativemarket.com/0.1.0/ps/7358706/1820/1213/m1/fpnw/wm1/r4ejcddlzrzpyfjdouhnnkfgfjrjuy4xyhhcnkuxt3m6rh05n4fnjqlf92qwdpkn-.jpg?1574658759&s=bdcb7212acfc1980a7cfee59581e102a');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
