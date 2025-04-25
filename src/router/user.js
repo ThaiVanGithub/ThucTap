@@ -22,6 +22,11 @@ const users = [
                 path: "history",
                 name: "history",
                 component: () => import("../pages/historyPages/index.vue")
+            },
+            {
+                path: "blog",
+                name: "blog",
+                component: () => import("../pages/blogPages/index.vue")
             }
         ]
     }

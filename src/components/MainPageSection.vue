@@ -148,7 +148,8 @@
           <div class="card h-100 shadow">
             <div class="card-body p-0">
               <div class="video-wrapper">
-                <video muted autoplay class="video-player w-100" controls preload="metadata" :poster="video.poster || ''">
+                <video muted autoplay class="video-player w-100" controls preload="metadata"
+                  :poster="video.poster || ''">
                   <source :src="video.src" type="video/mp4">
                   Trình duyệt của bạn không hỗ trợ thẻ video.
                 </video>
@@ -166,42 +167,21 @@
 
 
   <section class="explore-vietnam py-5" style="background-color: #90C67C;">
-
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 shadow-sm">
-            <img src="../assets/ruongbt.jpg" class="card-img-top" alt="Khám phá vẻ đẹp Việt Nam">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Bản sắc văn hóa </h5>
-              <p class="card-text text-muted">
-                Hành trình trải nghiệm những cảnh quan thiên nhiên tuyệt đẹp và nền văn hóa đặc sắc
-              </p>
+      <div class="row ">
+        <router-link to="/blog"   class="d-flex justify-content-center gap-4">
+          <div class="col-lg-4 mb-4" v-for="(item, index) in VietnamCards" :key="index">
+            <div class="card h-100 shadow-sm">
+              <img :src="item.image">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">{{ item.title }}</h5>
+                <p class="card-text text-muted">{{ item.description }}</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 shadow-sm">
-            <img src="../assets/duongphovn.jpg" class="card-img-top" alt="Khám phá vẻ đẹp Việt Nam">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Cuộc sống hằng ngày</h5>
-              <p class="card-text text-muted">
-                Đưa bạn tới những khung cảnh bình yên, những con người chân thành và những câu chuyện đầy ý nghĩa
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 shadow-sm">
-            <img src="../assets/dongpn.jpg" class="card-img-top" alt="Khám phá vẻ đẹp Việt Nam">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Phong Nha - Kẻ Bàng</h5>
-              <p class="card-text text-muted">
-                Hành trình trải nghiệm những cảnh quan thiên nhiên tuyệt đẹp và nền văn hóa đặc sắc
-              </p>
-            </div>
-          </div>
-        </div>
+        </router-link>
+
+
       </div>
     </div>
 
@@ -217,11 +197,35 @@ import phoHN from '../assets/phoHN.jpeg';
 import bxmt from '../assets/bxmt.jpg';
 import chua2 from '../assets/chua2.mp4';
 import tg from '../assets/tg.jpg'
+import ruongbt from '../assets/ruongbt.jpg';
+import duongphovn from '../assets/duongphovn.jpg';
+import dongpn from '../assets/dongpn.jpg';
 export default {
   name: 'ExploreVietnam',
   setup() {
 
+    const VietnamCards = ref([
 
+      {
+        image: ruongbt, // dùng require nếu trong Vue CLI project
+        alt: 'Khám phá vẻ đẹp Việt Nam',
+        title: 'Bản sắc văn hóa',
+        description: 'Hành trình trải nghiệm những cảnh quan thiên nhiên tuyệt đẹp và nền văn hóa đặc sắc'
+      },
+      {
+        image: duongphovn,
+        alt: 'Khám phá vẻ đẹp Việt Nam',
+        title: 'Cuộc sống hằng ngày',
+        description: 'Đưa bạn tới những khung cảnh bình yên, những con người chân thành và những câu chuyện đầy ý nghĩa'
+      },
+      {
+        image: dongpn,
+        alt: 'Khám phá vẻ đẹp Việt Nam',
+        title: 'Phong Nha - Kẻ Bàng',
+        description: 'Hành trình trải nghiệm những cảnh quan thiên nhiên tuyệt đẹp và nền văn hóa đặc sắc'
+      }
+
+    ])
     const featuredDestinations = ref([
       {
         image: '/src/assets/haLongBay.jpg',
@@ -237,6 +241,7 @@ export default {
       'Nghệ thuật dân gian độc đáo',
       'Kiến trúc cổ đặc sắc'
     ]);
+
 
     const culturalHeritages = ref([
       {
@@ -281,14 +286,14 @@ export default {
       culturalHeritages,
       vietnameseFoods,
       handleExplore,
-      vietnamVideos
+      vietnamVideos,
+      VietnamCards
     };
   }
 };
 </script>
 
 <style scoped>
-
 .explore-vietnam {
   overflow-x: hidden;
 }
