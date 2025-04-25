@@ -59,7 +59,6 @@ const handleLogout = () => {
           Đăng nhập
         </button>
 
-        <!-- icon đăng xuất -->
         <button v-else @click="handleLogout" class="btn btn-outline-danger" style="background-color: #D84040;
           border: black;
           color: white">
@@ -80,9 +79,9 @@ const handleLogout = () => {
         <button @click="openMenu = false" class="btn btn-close"></button>
       </div>
 
-      <div class="menu-body">
+      <div class="menu-body text-center" style="font-weight: 500;">
         <router-link to="/" active-class="text-danger" exact>
-          <p class="nav-link m-0 menu-item ">Trang chủ</p>
+          <p class="nav-link m-0 menu-item  ">Trang chủ</p>
         </router-link>
 
         <router-link to="/Food" active-class="text-danger" exact>

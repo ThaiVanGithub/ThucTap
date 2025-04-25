@@ -167,26 +167,27 @@
 
 
   <section class="explore-vietnam py-5" style="background-color: #90C67C;">
-    <div class="container">
-      <div class="row ">
-        <router-link to="/blog"   class="d-flex justify-content-center gap-4">
-          <div class="col-lg-4 mb-4" v-for="(item, index) in VietnamCards" :key="index">
-            <div class="card h-100 shadow-sm">
-              <img :src="item.image">
-              <div class="card-body">
-                <h5 class="card-title fw-bold">{{ item.title }}</h5>
-                <p class="card-text text-muted">{{ item.description }}</p>
-              </div>
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 mb-4"
+        v-for="(item, index) in VietnamCards"
+        :key="index"
+      >
+        <router-link to="/blog" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <img :src="item.image" class="card-img-top" alt="Vietnam Image" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">{{ item.title }}</h5>
+              <p class="card-text text-muted">{{ item.description }}</p>
             </div>
           </div>
         </router-link>
-
-
       </div>
     </div>
+  </div>
+</section>
 
-
-  </section>
 </template>
 
 <script>
